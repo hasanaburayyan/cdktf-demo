@@ -16,9 +16,13 @@
     "branches": [
       "main"
     ],
-		"plugins": [
-			"@semantic-release/commit-analyzer",
-			"@semantic-release/release-notes-generator"
-		]
-	}
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator"
+    ]
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3",
+    "semantic-release-codeartifact": "^2.0.6"
+  }
 }

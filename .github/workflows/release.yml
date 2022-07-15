@@ -17,8 +17,8 @@ jobs:
           aws-region: us-east-1
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      - name: Get Codeartifact Token
-        run: export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain hasan-packages --domain-owner 109158437051 --query authorizationToken --output text`
+      # - name: Get Codeartifact Token
+      #   run: export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain hasan-packages --domain-owner 109158437051 --query authorizationToken --output text`
       - name: Install Dependencies
         run: npm install
       - name: Release

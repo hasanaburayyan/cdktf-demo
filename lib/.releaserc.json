@@ -6,7 +6,8 @@
     ["semantic-release-codeartifact", {
       "tool": "npm",
       "domain": "hasan-packages",
-      "repository": "cdktf-demo-lib"
+      "repository": "cdktf-demo-lib",
+      "domainOwner": "109158437051"
     }],
     [
       "@semantic-release/github",
@@ -14,6 +15,7 @@
         "successComment": false,
         "failComment": false
       }
-    ]
+    ],
+    "@semantic-release/npm"
   ]
 }

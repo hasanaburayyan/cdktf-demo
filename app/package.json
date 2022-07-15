@@ -16,6 +16,10 @@
     "upgrade": "npm i cdktf@latest cdktf-cli@latest",
     "upgrade:next": "npm i cdktf@next cdktf-cli@next"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasanaburayyan/cdktf-demo.git"
+  },
   "engines": {
     "node": ">=14.0"
   },

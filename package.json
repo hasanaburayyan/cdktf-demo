@@ -1,4 +1,24 @@
 {
   "name": "my-cdktf-project",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "@qiwi/multi-semantic-release": "^6.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasanaburayyan/cdktf-demo.git"
+  },
+  "workspaces": [
+    "app",
+    "lib"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ],
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator"
+		]
+	}
 }

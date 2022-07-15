@@ -1,5 +1,5 @@
 {
-  "name": "cdktf-demo-lib",
+  "name": "@cdktf-demo/lib",
   "version": "1.0.0",
   "description": "My cdktf demo library",
   "main": "src/index.js",

@@ -3,23 +3,12 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    ["semantic-release-codeartifact", {
-      "tool": "npm",
-      "domain": "hasan-packages",
-      "repository": "cdktf-demo-lib",
-      "domainOwner": "109158437051"
-    }],
+    "@semantic-release/npm",
     [
       "@semantic-release/github",
       {
         "successComment": false,
         "failComment": false
-      }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
       }
     ]
   ]

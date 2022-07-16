@@ -1,15 +1,8 @@
-import { Construct } from "constructs";
-import { App, TerraformStack } from "cdktf";
+import { App } from "cdktf";
 
-class MyStack extends TerraformStack {
-  constructor(scope: Construct, name: string) {
-    super(scope, name);
-
-    // define resources here
-    // Some random fix
-  }
-}
+import {TestStack} from "@hasanaburayyan/cdktf-demo-lib/src/stacks/test-stack";
 
 const app = new App();
-new MyStack(app, "app");
+
+new TestStack(app, 'MyTestStack', {region: "us-east-1", bucketName: "hasan-test-bucket"});
 app.synth();

@@ -1,10 +1,10 @@
 {
   "name": "cdktf-demo-app",
   "version": "1.0.0",
-  "main": "main.ts",
+  "main": "main.js",
   "types": "main.ts",
   "license": "MPL-2.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "get": "cdktf get",
     "build": "tsc",
@@ -24,9 +24,10 @@
     "node": ">=14.0"
   },
   "dependencies": {
+    "@cdktf/provider-aws": "^8.0.17",
+    "@hasanaburayyan/cdktf-demo-lib": "1.4.0",
     "cdktf": "^0.11.2",
-    "constructs": "^10.1.46",
-    "@hasanaburayyan/cdktf-demo-lib": "1.2.0"
+    "constructs": "^10.1.46"
   },
   "devDependencies": {
     "@types/jest": "^28.1.5",

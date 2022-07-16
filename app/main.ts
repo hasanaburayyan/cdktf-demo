@@ -1,6 +1,6 @@
 import { App } from "cdktf";
 
-import {TestStack} from "@hasanaburayyan/cdktf-demo-lib/src/stacks/test-stack";
+import {TestStack} from "@hasanaburayyan/cdktf-demo-lib";
 
 const app = new App();
 

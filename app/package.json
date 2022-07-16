@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@cdktf/provider-aws": "^8.0.17",
-    "@hasanaburayyan/cdktf-demo-lib": "1.4.0",
+    "@hasanaburayyan/cdktf-demo-lib": "1.4.1",
     "cdktf": "^0.11.2",
     "constructs": "^10.1.46"
   },

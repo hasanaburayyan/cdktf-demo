@@ -10,7 +10,8 @@
   },
   "workspaces": [
     "app",
-    "lib"
+    "lib",
+    "lib-p"
   ],
   "release": {
     "branches": [

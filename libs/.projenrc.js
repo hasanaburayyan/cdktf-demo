@@ -15,5 +15,6 @@ const project = new cdktf.ConstructLibraryCdktf({
   deps: [
     '@cdktf/provider-aws@^8.0.17',
   ],
+  entrypoint: 'index.ts',
 });
 project.synth();

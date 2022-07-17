@@ -11,7 +11,7 @@
   "workspaces": [
     "app",
     "lib",
-    "lib-p"
+    "libs"
   ],
   "release": {
     "branches": [
